@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomeScreen Checks if everything is being rendered accordingly 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "height": "100%",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "opacity": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      WELCOME TO
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 25,
+          "marginBottom": 100,
+          "textAlign": "center",
+        }
+      }
+    >
+      CRYPTO-WATCH
+    </Text>
+  </View>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Search Currency
+      </Text>
+    </View>
+  </View>
+</View>
+`;
